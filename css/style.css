@@ -1,0 +1,20 @@
+#regForm b{
+    display:inline-block;
+    padding-top:5px;
+    width:100px;
+}
+#regForm input[type="submit"]{
+    margin: 15px 150px;
+}
+.span{
+    color: red;
+    font-family: serif;
+}
+.Valid{
+    color: green;
+    border: 1px solid green;
+}
+.notValid{
+    color: red;
+    border: 1px solid red;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckForm</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form method="GET" id="regForm">
+        <b>First name:</b> <input type="text" id="name1" name="name1" required /><span class="span"
+            id="name1span"></span><br />
+        <b>Second name:</b> <input type="text" id="name2" name="name2" required /><span class="span"
+            id="name2span"></span><br />
+        <b>Login:</b> <input type="text" id="login" name="login" required /><span class="span"
+            id="loginspan"></span><br />
+        <b>Password:</b> <input type="password" id="pas1" name="pass" required /><span class="span"
+            id="pas1span"></span><br />
+        <b>Retype:</b> <input type="password" id="pas2" required /><span class="span" id="pas2span"></span><br />
+        <b>Email:</b> <input type="email" id="email" name="email" required /><span class="span"
+            id="emailspan"></span><br />
+        <b>Cellular:</b> <input type="phone" id="phone" name="phone" required /><span class="span"
+            id="cellspan"></span><br />
+        <b>Code:</b> <input type="number" id="code" name="code" required /><span class="span"
+            id="codespan"></span><br />
+        <b></b><label><input type="checkbox" name="accept" id="accept" required /> I accept the rules</label><span
+            class="span" id="acceptspan"></span><br />
+        <input type="submit" value="Register" />
+    </form>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="js/checkform.js"></script>
+</body>
+
+</html>
